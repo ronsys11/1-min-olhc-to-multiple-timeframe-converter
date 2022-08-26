@@ -15,6 +15,7 @@ t = df.groupby(pd.Grouper(freq='15min')).agg({"Open": "first",
                                              "Low": "min", 
                                              "High": "max"})
                                              
-for example freq = '5min' for 5 minute date
-            freq = '1d' for 1 day data
+for example 
+freq = '5min' for 5 minute data
+freq = '1d' for 1 day data
                                              
